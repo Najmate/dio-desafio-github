@@ -1,0 +1,35 @@
+• Comandos GitHub
+Git Clone - Clona um Repositório do GitHub
+
+> Git Satus - Ver a situação do projeto
+Mensagem em Vermelho - Falta Add | Verde - Falta o commit
+> Git Commit - Criar versões dos arquivos
+> Git Add - Adicionar Arquivos e edições de arquivos || Git add . - adiciona todos os arquivos do pc no repositorio
+>  Git Push - Publica no GitHub
+> Git Reflog - Lista os commits do Repositório
+
+• Como criar um repositório local
+
+- crie uma pasta e em seguida entre nela com o cmd
+1 - git init  = cria um repositório vazio dentro da pasta
+2 -  git add .
+3 -  git commit -m "texto do commit"
+
+• Como empurrar o repositório local para o repositório remoto do GitHub
+
+- Entre na pasta do repositório local e utilize o comando a seguir:
+1 - git remote add origin <link do repositório GitHub>
+2 - Git push origin master
+
+
+• EXTRA
+1 - git remote -v: dizer a lista de repositórios remotos que tem cadastrados 
+
+2 - git config --global user.email "nome do email"
+git config --global user.name <nome do name>
+como configurar o e-mail e o nick do GitHub na máquina de forma global.
+
+3 - merge = mesclar
+Um arquivo foi editado em dois locais diferentes, agora você tem duas versões diferentes.
+
+MERGE é uma opção * pra mesclar dois arquivos em um só do Github*
